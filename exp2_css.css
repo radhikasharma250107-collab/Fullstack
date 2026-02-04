@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #1f3a8a;
+    color: white;
+    padding: 20px;
+}
+
+.nav {
+    background-color: #e5e7eb;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+.search-section {
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+}
+
+.search-text {
+    width: 50%;
+}
+
+.search-form {
+    width: 50%;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+.search-form input {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+
+.main {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+
+.categories {
+    width: 30%;
+    background-color: #f9fafb;
+    padding: 20px;
+}
+
+.categories p {
+    background-color: #e5e7eb;
+    padding: 8px;
+}
+
+.jobs {
+    width: 70%;
+}
+
+.job {
+    background-color: #f9fafb;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #1f3a8a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
